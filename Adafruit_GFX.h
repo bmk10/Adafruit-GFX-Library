@@ -243,6 +243,8 @@ protected:
   bool wrap;            ///< If set, 'wrap' text at right edge of display
   bool _cp437;          ///< If set, use correct CP437 charset (default is off)
   GFXfont *gfxFont;     ///< Pointer to special font
+  
+  uint8_t textsize;   ///// bmk10 9/30/2020 < Desired magnification in Y-axis of text to print(), rm68090 arduino support
 };
 
 /// A simple drawn button UI element
